@@ -1,0 +1,29 @@
+/* Based on https://stackoverflow.com/a/11681331 */
+.main {
+    -webkit-animation: fadein 2s;
+       -moz-animation: fadein 2s;
+        -ms-animation: fadein 2s;
+         -o-animation: fadein 2s;
+            animation: fadein 2s;
+}
+@keyframes         fadein { from { opacity: 0; } to { opacity: 1; } }
+@-webkit-keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
+@-moz-keyframes    fadein { from { opacity: 0; } to { opacity: 1; } }
+@-ms-keyframes     fadein { from { opacity: 0; } to { opacity: 1; } }
+@-o-keyframes      fadein { from { opacity: 0; } to { opacity: 1; } }
+
+/* Based on https://codepen.io/taniarascia/pen/qOjLjE/ */
+body {
+    background: linear-gradient(253deg, #41567A, #7A4172, #417A49);
+    background-size: 300% 300%;
+    -webkit-animation: Background 20s ease infinite;
+       -moz-animation: Background 20s ease infinite;
+        -ms-animation: Background 20s ease infinite;
+         -o-animation: Background 20s ease infinite;
+            animation: Background 20s ease infinite;
+}
+@keyframes         Background { 0% { background-position: 0% 50% } 50% { background-position: 100% 50% } 100% { background-position: 0% 50% } }
+@-webkit-keyframes Background { 0% { background-position: 0% 50% } 50% { background-position: 100% 50% } 100% { background-position: 0% 50% } }
+@-moz-keyframes    Background { 0% { background-position: 0% 50% } 50% { background-position: 100% 50% } 100% { background-position: 0% 50% } }
+@-ms-keyframes     Background { 0% { background-position: 0% 50% } 50% { background-position: 100% 50% } 100% { background-position: 0% 50% } }
+@-o-keyframes      Background { 0% { background-position: 0% 50% } 50% { background-position: 100% 50% } 100% { background-position: 0% 50% } }
